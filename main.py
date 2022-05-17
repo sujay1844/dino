@@ -18,6 +18,9 @@ def main():
         
         # Filling the background with a colour
         WINDOW.fill(WHITE)
+        
+        # Update the game every frame
+        pygame.display.update()
     
     pygame.quit()
 
