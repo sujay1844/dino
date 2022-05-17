@@ -24,7 +24,7 @@ def main():
                 running = False
         
         # Filling the background with a colour
-        WINDOW.fill(WHITE)
+        WINDOW.fill((20, 21, 24))
         
         # Update the game every frame
         pygame.display.update()
