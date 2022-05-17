@@ -5,6 +5,8 @@ WIDTH, HEIGHT = 800, 400
 WINDOW = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Game-lol")
 
+# Colours
+WHITE = (255, 255, 255)
 def main():
     # running variable indicates whether the game is running or the user wants to quit
     running = True
@@ -13,6 +15,9 @@ def main():
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 running = False
+        
+        # Filling the background with a colour
+        WINDOW.fill(WHITE)
     
     pygame.quit()
 
