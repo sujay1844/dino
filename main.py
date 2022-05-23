@@ -85,7 +85,6 @@ def main():
             obstacle_img = os.path.join(obstacle_img, random.choice(os.listdir(obstacle_img)))
 
             obstacle = pygame.image.load(obstacle_img)
-            # obs_flag = False
             obs_flag = True
         else:
             j+=1
